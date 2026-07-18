@@ -14,9 +14,10 @@ export interface Product {
   price: string;
   regular_price: string;
   sale_price: string;
+  price_html: string;
   on_sale: boolean;
-  purchasable: boolean;
-  in_stock: boolean;
+  is_purchasable: boolean;
+  is_in_stock: boolean;
   images: Array<{
     id: number;
     src: string;
